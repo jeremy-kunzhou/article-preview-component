@@ -15,7 +15,6 @@ $--fw-700: 700;
 
 body {
     width: 100%;
-    min-height: 50vh !important;
     background: $--clr-light-grayish-blue;
     display: grid;
     align-items: center;
@@ -115,7 +114,7 @@ section {
                 .sharing-icon{
                     width: 35px;
                     height: 35px;
-                    background-color: $--clr-very-dark-blue;
+                    background-color: $--clr-light-grayish-blue;
                     border-radius: 50%;
                     display: flex;
                     justify-content: center;
@@ -125,7 +124,14 @@ section {
                     i {
                         width: 15px;
                         height: 15px;
-                        color: white;
+                        color: $--clr-very-dark-blue;
+                    }
+
+                    &.open {
+                        background-color: $--clr-very-dark-blue ;
+                        i {
+                            color: white;
+                        }
                     }
                 }
 

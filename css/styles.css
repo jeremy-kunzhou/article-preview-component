@@ -78,7 +78,6 @@ select {
 }
 body {
   width: 100%;
-  min-height: 50vh !important;
   background: #ecf2f8;
   display: grid;
   align-items: center;
@@ -168,7 +167,7 @@ section .section-right .section-right-bottom .sharing {
 section .section-right .section-right-bottom .sharing .sharing-icon {
   width: 35px;
   height: 35px;
-  background-color: #48556a;
+  background-color: #ecf2f8;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -179,6 +178,12 @@ section .section-right .section-right-bottom .sharing .sharing-icon {
 section .section-right .section-right-bottom .sharing .sharing-icon i {
   width: 15px;
   height: 15px;
+  color: #48556a;
+}
+section .section-right .section-right-bottom .sharing .sharing-icon.open {
+  background-color: #48556a;
+}
+section .section-right .section-right-bottom .sharing .sharing-icon.open i {
   color: white;
 }
 section .section-right .section-right-bottom .sharing .sharing-bar {
